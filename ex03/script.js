@@ -1,10 +1,10 @@
-let numero = Number(prompt("Digite um número:"));
-let resultado = "Tabuada do " + numero + ":\n";
+let num = Number(prompt("Digite um número:"));
+let resultado = "Tabuada do " + num + ":\n";
 
 for (let i = 1; i <= 10; i++) {
-    let conta = numero * i;
+    let conta = num * i;
     
-    resultado += numero + " x " + i + " = " + conta + "\n";
+    resultado += num + " x " + i + " = " + conta + "\n";
 }
 
 alert(resultado);
